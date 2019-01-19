@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int[] numbers = { 1, 11, 23, 58, 4, 48, 111, 220, 9, 8 };
+            int i = 0;
+
+            while (i < numbers.Length)
+            {
+                if (numbers[i] <= 48 && numbers[i] % 2 == 0)
+                {
+                    Console.Write(numbers[i]+ " ");
+                }
+                i++;
+            }
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
