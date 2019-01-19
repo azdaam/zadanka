@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IndexTablicy
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] words = { "p", "Dog", "764TEST", "TEST", "Frew" };
+
+            for (int i = 0; i < words.Length; i++)
+            {
+                if (words[i] == "TEST")
+                {
+                    Console.WriteLine("Element 'TEST' znajduje sie na indeksie " +i);
+
+                }
+            }
+            Console.ReadKey();
+        }
+    }
+}
